@@ -44,7 +44,7 @@ if __name__ == '__main__':
     setuptools.setup(
         name='ice_age',
         version=__version__,
-        url='https://github.com/dpep/py_ice_age',
+        url='https://github.com/dpep/ice_age_py',
         license='MIT',
         author='Daniel Pepper',
         description='freeze your ENVironment',
@@ -57,9 +57,6 @@ if __name__ == '__main__':
         ],
 
         test_suite = 'setup.discover_tests',
-        # tests_require=[
-        #     'forbiddenfruit',
-        # ],
 
         # https://pypi.python.org/pypi?%3Aaction=list_classifiers
         classifiers=[

@@ -2,6 +2,7 @@ ice_age
 ======
 Freeze your ENVironment during testing. Just in case you need to change ENV variables during tests, this library ensures that everything is reset before the next test runs.
 
+Current support limited to standard unittest framework.
 
 ### Install
 ```pip install ice_age```
@@ -9,7 +10,11 @@ Freeze your ENVironment during testing. Just in case you need to change ENV vari
 
 ### Usage
 ```python
-import ice_age
+from ice_age import TestCase
+
+class MyTest(TestCase):
+    def test_basic(self):
+        ...
 
 ```
 

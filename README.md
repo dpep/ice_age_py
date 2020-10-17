@@ -21,4 +21,4 @@ class MyTest(TestCase):
 ----
 [![Build Status](https://travis-ci.org/dpep/ice_age_py.svg?branch=master)](https://travis-ci.org/dpep/ice_age_py)
 [![Coverage Status](https://coveralls.io/repos/github/dpep/ice_age_py/badge.svg?branch=master)](https://coveralls.io/github/dpep/py_ice_age?branch=master)
-[![installs](https://img.shields.io/pypi/dm/ice_age.svg?label=installs)](https://pypi.org/project/ice_age)
+[![installs](https://img.shields.io/pypi/dm/ice_age?label=installs)](https://pypi.org/project/ice_age)
